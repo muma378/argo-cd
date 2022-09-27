@@ -36,7 +36,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.2.0
 	github.com/golang/protobuf v1.5.2
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
-	github.com/google/go-cmp v0.5.7
+	github.com/google/go-cmp v0.5.8
 	github.com/google/go-github/v35 v35.3.0
 	github.com/google/go-jsonnet v0.18.0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
@@ -80,8 +80,8 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
-	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa
-	google.golang.org/grpc v1.45.0
+	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368
+	google.golang.org/grpc v1.46.2
 	google.golang.org/protobuf v1.28.0
 	gopkg.in/go-playground/webhooks.v5 v5.11.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -99,6 +99,24 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0
 	sigs.k8s.io/yaml v1.3.0
 )
+
+require (
+	github.com/gfleury/go-bitbucket-v1 v0.0.0-20220301131131-8e7ed04b843e
+	github.com/stretchr/objx v0.3.0 // indirect
+	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
+	k8s.io/apiserver v0.24.2
+)
+
+require (
+	github.com/gosimple/slug v1.12.0
+	github.com/microsoft/azure-devops-go-api/azuredevops v1.0.0-b5
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.31.0
+	go.opentelemetry.io/otel v1.10.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.10.0
+	go.opentelemetry.io/otel/sdk v1.10.0
+)
+
+require github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
@@ -123,6 +141,7 @@ require (
 	github.com/antonmedv/expr v1.8.9 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -199,6 +218,10 @@ require (
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca // indirect
 	go.mongodb.org/mongo-driver v1.1.2 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/internal/retry v1.10.0 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.10.0 // indirect
+	go.opentelemetry.io/otel/trace v1.10.0 // indirect
+	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	go.starlark.net v0.0.0-20200306205701-8dd3e2ee1dd5 // indirect
 	golang.org/x/exp v0.0.0-20210901193431-a062eea981d2 // indirect
 	golang.org/x/mod v0.5.1-0.20210830214625-1b1db11ec8f4 // indirect
